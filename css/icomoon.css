@@ -267,6 +267,9 @@
 .icon-pause:before {
     content: "\f04c";
 }
+.icon-telegram:before {
+    content: "\f04f";
+}
 .icon-stop:before {
     content: "\f04d";
 }
