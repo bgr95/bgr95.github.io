@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #ron-footer {
-  padding-top: 5em;
+  padding-top: 50em;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -130,9 +130,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #ron-header {   
-  height: 125px;
+  height: 0px;
   position: relative;
-  top: 1em;
+  top: 0em;
   padding: 1em;
   width: 100%;
   z-index: 1000;
@@ -177,7 +177,10 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 #ron-header nav li a:hover span {
-  border-bottom: 0px solid #fff;
+  -webkit-transition: 0.00s;
+  -o-transition: 0.00s;
+  transition: 0.00s;
+  border-bottom: 1px solid #fff;
 }
 #ron-header nav li.ron-active a {
   color: #fff;
