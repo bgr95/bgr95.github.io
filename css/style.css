@@ -352,19 +352,81 @@ ul.columns>li {
   margin-left: 20%;
 }
 ul.columns>li a:hover {
-  color: black;
+  color: white;
 }
 
-ul.columns1>nav {
-  padding: 0em;
-  vertical-align: bottom;
+#ron-header1 {
+  display: flex;
+  margin-bottom: 0em;
+  height: 75px;
+  position: sticky;
+  top: auto;
+  bottom: 0em;
+  padding: 0%;
+  width: 60.0%;
+  z-index: 1000;
+  background-color: #749cde;
 }
+#ron-header1-inner {   
+  position: sticky;
+  justify-content: center;
+  top: 20px;
+  padding: 1.5%;
+  width: 100%;
+  z-index: 1000;
+  background-color: #295eba;
+}
+#ron-header1 nav {
+  margin-left: 0%;
+  margin-bottom: 1em;
+}
+#ron-header nav ul {
+  padding: 0;
+  margin: 0;
+}
+#ron-header1 nav li {
+  padding-bottom: auto;
+  list-style: none;
+  display: inline-block;
+  width:160px;
+}
+#ron-header1 nav li a {
+  padding: 2.5%;
+  color: rgba(255, 255, 255, 0.7);
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 0;
+  *display: inline;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+}
+#ron-header1 nav li a span {
+  -webkit-transition: 0.05s;
+  -o-transition: 0.05s;
+  transition: 0.05s;
+  border-bottom: 0.1em solid transparent;
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  #ron-header1 nav li a {
+    padding: .5% .5%;
+  }
+}
+#ron-header nav li a:hover {
+    color: white;
+    font-weight: 400;
+}}
 
-ul.columns1>li {
-  display: inline;
-  padding: 0em;
-  margin-left: 20%;
-}
-ul.columns1>li a:hover {
-  color: black;
-}
+#ron-header1 nav li a:hover span {
+  -webkit-transition: 0.05s;
+  -o-transition: 0.05s;
+  transition: 0.05s;
+  border-top: 0em solid #fff;
+}}
+#ron-header1 nav li.ron-active a {
+  color: #fff;
+}}
+#ron-header1 nav li.ron-active a span {
+  border-bottom: 1px solid #fff;
+}}
