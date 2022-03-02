@@ -201,9 +201,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #ron-header nav li a:hover span {
-  -webkit-transition: 0.05s;
-  -o-transition: 0.05s;
-  transition: 0.05s;
+  -webkit-transition: 0.0125s;
+  -o-transition: 0.0125s;
+  transition: 0.0125s;
   border-top: 0em solid #fff;
 }
 #ron-header nav li.ron-active a {
@@ -324,23 +324,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   user-select: none;  
 }
-
 .accordion label:hover,
 .accordion label:focus {
 }
-
 .accordion .handle label:before {
   font-size: 1em;
   line-height: 1.556em;
   vertical-align: middle;
   transition: 0.4s;
 }
-
 .accordion > input[name="collapse"]:checked ~ .handle label:before {
     transition: 0.4s;
 }
-
-
 
 ul.columns>nav {
   padding: 0em;
