@@ -69,16 +69,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #ron-wrap {
-
   position: relative;
   background: #fff;
   z-index: 2;
-  margin-bottom: 75px;
-}
-@media screen and (max-width: 992px) {
-  #ron-wrap {
-    margin-bottom: auto;
-  }
+  margin-bottom: auto;
 }
 
 #ron-footer {
@@ -94,13 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #333333;
   font-size: 18px;
 }
-@media screen and (max-width: 992px) {
-  #ron-footer {
-    height: inherit;
-    position: relative;
-    padding: 2em 0;
-  }
-}
+
 #ron-footer .ron-social li {
   display: block;
 }
@@ -140,21 +128,11 @@ h1, h2, h3, h4, h5, h6 {
   height: 75px;
   position: relative;
   top: 0px;
-  bottom: 30em;
+  bottom: auto;
   padding: 0%;
   width: 60.0%;
   z-index: 1000;
   background-color: #749cde;
-}
-#ron-header-inner {   
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  top: 20px;
-  padding: 1.5%;
-  width: 100%;
-  z-index: 1000;
-  background-color: #295eba;
 }
 #ron-header nav {
   margin-left: 0%;
@@ -165,41 +143,37 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 #ron-header nav li {
-  padding: 1em;
+  padding: 0em;
   list-style: none;
-  display: ;
+  display: flex;
+  float: left;
   width:160px;
   max-width:160px;
   overflow: scroll;
 }
+
 #ron-header nav li a {
-  padding: 2.5%;
+  padding: .5%;
   color: rgba(255, 255, 255, 0.7);
   display: ;
   display: ;
   zoom: 0;
   *display: ;
-  -webkit-transition: 0.1s;
-  -o-transition: 0.1s;
-  transition: 0.1s;
-}
-#ron-header nav li a span {
   -webkit-transition: 0.05s;
   -o-transition: 0.05s;
   transition: 0.05s;
+}
+#ron-header nav li a span {
+  -webkit-transition: 0.05s;
+  -o-transition: 0.025s;
+  transition: 0.025s;
   border-top: 0em solid transparent;
   display: block;
-}
-@media screen and (max-width: 768px) {
-  #ron-header nav li a {
-    padding: .5% .5%;
-  }
 }
 #ron-header nav li a:hover {
     color: white;
     font-weight: 400;
 }
-
 #ron-header nav li a:hover span {
   -webkit-transition: 0.0125s;
   -o-transition: 0.0125s;
@@ -212,33 +186,16 @@ h1, h2, h3, h4, h5, h6 {
 #ron-header nav li.ron-active a span {
   border-bottom: 0px solid #fff;
 }
-
-@media screen and (max-width: 600px) {
-   #ron-header nav li {
-    margin-top: 20px;
-  padding: 1em;
-  list-style: none;
-  display: table-column-group;
-  flex: 50%;
-}
-}
-
-
 .ron-section {
   justify-content: center;
   align-items: center;
   padding: 4% 0;
 }
-@media screen and (max-width: 768px) {
-  .ron-section {
-    padding: 5% 0;
-  }
-}
 
 .ron-main {
-    display: flex;
+  display: flex;
   justify-content: center;
-    align-items: center;
+  align-items: center;
 }
 
 .ron-feature {
@@ -311,8 +268,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* For Desktop */
-@media only screen and (min-width: 620px){
-
 .accordion > input[name="collapse"]:checked ~ .content {
   height: auto;
 }
@@ -348,113 +303,46 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.4s;
 }
 
-ul.columns>nav {
-  padding: 0em;
+.menu-icon > .line {
+    background-color: #fff;
+    height: 2px;
+    display: block;
+    width: 30px;
+}
+.menu-icon > .line + .line {
+    margin-top: 5px;
+    width: 30px;
 }
 
-ul.columns>li {
-  display: inline;
-  padding: 0em;
-  margin-left: 20%;
-}
-ul.columns>li a:hover {
-  color: white;
-}
 
-#ron-header1 {
-  display: flex;
-  margin-bottom: 0em;
+@media screen and (max-width: 1150px) {
+#ron-header nav {
+  display: table-cell;
+  justify-content: center;
+  align-items: center;
   height: 75px;
-  position: sticky;
-  top: auto;
-  bottom: 0em;
+  position: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  top: 0px;
+  bottom: auto;
   padding: 0%;
   width: 60.0%;
   z-index: 1000;
   background-color: #749cde;
 }
-#ron-header1-inner {   
-  position: sticky;
-  justify-content: center;
-  top: 20px;
-  padding: 1.5%;
-  width: 100%;
-  z-index: 1000;
-  background-color: #295eba;
-}
-#ron-header1 nav {
-  margin-left: 0%;
-  margin-bottom: 1em;
-}
-#ron-header nav ul {
-  padding: 0;
-  margin: 0;
-}
-#ron-header1 nav li {
-  padding-bottom: auto;
+#ron-header nav li {
+  padding: 2%;
   list-style: none;
-  display: inline-block;
-  width:160px;
+  display: inline-flex;
+  float: ;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 180px;
+  max-width: 180px;
+  overflow: scroll;
 }
-#ron-header1 nav li a {
-  padding: 2.5%;
-  color: rgba(255, 255, 255, 0.7);
-  display: -moz-inline-stack;
-  display: inline-block;
-  zoom: 0;
-  *display: inline;
-  -webkit-transition: 0.1s;
-  -o-transition: 0.1s;
-  transition: 0.1s;
 }
-#ron-header1 nav li a span {
-  -webkit-transition: 0.05s;
-  -o-transition: 0.05s;
-  transition: 0.05s;
-  border-bottom: 0.1em solid transparent;
-  display: block;
-}
-@media screen and (max-width: 768px) {
-  #ron-header1 nav li a {
-    padding: .5% .5%;
-  }
-}
-#ron-header nav li a:hover {
-    color: white;
-    font-weight: 400;
-}}
-
-#ron-header1 nav li a:hover span {
-  -webkit-transition: 0.05s;
-  -o-transition: 0.05s;
-  transition: 0.05s;
-  border-top: 0em solid #fff;
-}}
-#ron-header1 nav li.ron-active a {
-  color: #fff;
-}}
-#ron-header1 nav li.ron-active a span {
-  border-bottom: 1px solid #fff;
-}}
 
 
 
-
-
-@media screen and (max-width: 1200px){
-  #ron-header {
-    display: flexbox;
-    width: 100px;
-    position: fixed;
-    left: 10px;
-    margin: 20px;
-    top: 30px;
-    bottom: 20px;
-    right: 90%;
-    border-radius: 10px;
-  }
-  #ron-header ul li {
-    width: auto;
-
-  }
-}
