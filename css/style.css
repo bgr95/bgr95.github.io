@@ -23,18 +23,12 @@ body {
   height: 100%;
   position: relative;
 }
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 17px;
-    line-height: 1.5;
-  }
-}
 
 a {
-  color: white;
-  -webkit-transition: 0.2s;
-  -o-transition: 0.2s;
-  transition: 0.2s;
+  color:rgba(255, 255, 255, 0.7);
+  -webkit-transition: 0.05s;
+  -o-transition: 0.05s;
+  transition: 0.05s;
 }
 a:hover, a:active, a:focus {
   color: white;
@@ -132,11 +126,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0%;
   width: 60.0%;
   z-index: 1000;
-  background-color: #749cde;
+  background-color: #6388D8;
 }
 #ron-header nav {
   margin-left: 0%;
-  text-align: left;
+  text-align: ;
 }
 #ron-header nav ul {
   padding: 0;
@@ -146,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0em;
   list-style: none;
   display: flex;
-  float: left;
+  float: right;
   width:160px;
   max-width:160px;
   overflow: scroll;
@@ -191,6 +185,10 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   padding: 4% 0;
 }
+.ron-section p.ron-active a:hover {
+  color: white;
+  font-weight: 400;
+}
 
 .ron-main {
   display: flex;
@@ -206,6 +204,11 @@ h1, h2, h3, h4, h5, h6 {
   width: 60%;
   margin-right: 20%;
 }
+.ron-feature a:hover a:active {
+  color: white;
+    font-weight: 400;
+}
+
 .ron-feature .ron-icon {
   float: left;
   width: 10%;
@@ -231,7 +234,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
   }
 }
-.ron-feature .ron-text {
+.ron-feature .ron-text a {
+  color: ;
   float: center;
 }
 
@@ -272,7 +276,8 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
 }
 
-.accordion {
+.accordion a {
+  color: color:rgba(255, 255, 255, 0.7);;
 }
 
 .accordion > input[name="collapse"]:checked ~ .content {
@@ -314,35 +319,28 @@ h1, h2, h3, h4, h5, h6 {
     width: 30px;
 }
 
-
 @media screen and (max-width: 1150px) {
 #ron-header nav {
   display: table-cell;
-  justify-content: center;
-  align-items: center;
   height: 75px;
-  position: center;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 35%;
+  margin-right: 30%;
   top: 0px;
+  float: center;
   bottom: auto;
   padding: 0%;
-  width: 60.0%;
+  width: 30.0%;
   z-index: 1000;
-  background-color: #749cde;
+  background-color: #6388D8;
 }
 #ron-header nav li {
   padding: 2%;
   list-style: none;
-  display: inline-flex;
-  float: ;
-  margin-left: 15%;
-  margin-right: 15%;
+  float: left;
+  margin-left: 32.5%;
+  margin-right: 30%;
   width: 180px;
   max-width: 180px;
   overflow: scroll;
 }
 }
-
-
-
