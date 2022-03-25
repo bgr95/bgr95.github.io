@@ -62,58 +62,8 @@ h1, h2, h3, h4, h5, h6 {
   background: white;
 }
 
-#ron-wrap {
-  position: relative;
-  background: #fff;
-  z-index: 2;
-  margin-bottom: auto;
-}
 
-#ron-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1;
-  height: ;
-  background: #333333;
-  font-size: 18px;
-}
 
-#ron-footer .ron-social li {
-  display: block;
-}
-#ron-footer p {
-  line-height: 1.5;
-}
-#ron-footer h3 {
-  color: #fff;
-  font-size: 20px;
-}
-#ron-footer a {
-  color: #ffffff;
-}
-#ron-footer a:hover {
-  color: #fff;
-}
-#ron-footer ul {
-  padding: 0;
-  margin: 0;
-}
-#ron-footer ul li {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-#ron-footer .ron-copyright {
-  padding-top: 8em;
-}
-#ron-footer .ron-copyright small {
-  display: block;
-}
 
 #ron-header {
   display: flex;
@@ -212,6 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 .ron-feature .ron-icon {
   float: left;
   width: 10%;
+  max-width: 30%;
   margin-left: 30%;
   display: block;
   margin-top: 5px;
@@ -220,31 +171,10 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   font-size: 50px;
 }
-@media screen and (max-width: 1200px) {
-  .ron-feature .ron-icon i {
-    font-size: 40px;
-  }
-}
+
 .ron-feature.ron-feature-sm .ron-icon i {
   color: white;
   font-size: 20px;
-}
-@media screen and (max-width: 1200px) {
-  .ron-feature.ron-feature-sm .ron-icon i {
-    font-size: 20px;
-  }
-}
-.ron-feature .ron-text a {
-  color: ;
-  float: center;
-}
-
-#ron-stationary {   
-  display: flex;
-  position: center;
-  top: -25px;
-  padding: 1.5%;
-  width: 100%;
 }
 
 .accordion > input[name="collapse"] {
@@ -277,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .accordion a {
-  color: color:rgba(255, 255, 255, 0.7);;
+  color: color:rgba(255, 255, 255, 0.7);
 }
 
 .accordion > input[name="collapse"]:checked ~ .content {
@@ -319,28 +249,136 @@ h1, h2, h3, h4, h5, h6 {
     width: 30px;
 }
 
-@media screen and (max-width: 1150px) {
-#ron-header nav {
-  display: table-cell;
-  height: 75px;
-  margin-left: 35%;
-  margin-right: 30%;
-  top: 0px;
-  float: center;
-  bottom: auto;
-  padding: 0%;
-  width: 30.0%;
-  z-index: 1000;
-  background-color: #6388D8;
+.logo a:hover, a:active, a:focus {
+  color: white;
+  outline: none;
+  text-decoration: none;
 }
-#ron-header nav li {
-  padding: 2%;
+
+
+
+
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: ;
+  margin-left: 20%;
+  margin-right: 20%;
+  min-height: 8vh;
+  background-color: #6388D8;
+  font-family: "Work Sans", Arial, sans-serif;
+}
+
+.logo {
+  padding: 0%;
+  display: flex;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.nav-links li {
+  margin-top: 0%;
+  list-style: none;
+  display: flex;
+  float: left;
+  width: 160px;
+}
+
+.nav-links a {
+  list-style: none;
+  display: flex;
+}
+.burger{
+  margin-top: 0%;
+  display: none;
+  cursor: pointer;
+}
+
+.burger div{
+  width: 25px;
+  height: 1.5px;
+  background-color: white;
+  margin: 5px;
+}
+
+@media screen and (max-width: 1100px){
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    align-content: top;
+    height: 25%;
+    background-color: #6388D8;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translateY(20%);
+    transition: transform 0.4s ease-in;
+  }
+.nav-links li {
+position: sticky;  padding: 0em;
+  margin-top: 1%;
   list-style: none;
   float: left;
-  margin-left: 32.5%;
-  margin-right: 30%;
-  width: 180px;
-  max-width: 180px;
-  overflow: scroll;
+  width: 160px;
 }
+
+  .nav-links {
+  opacity: 0;
 }
+  .ron-main {
+    opacity: 1;
+  }
+
+  .burger{
+    display: block;
+  }
+}
+
+.nav-active{
+  opacity: 1;
+}
+
+.ron-main-active {
+  opacity: 0;
+}
+
+@keyframes navLinksFade{
+  from{
+    opacity: 1;
+    transform: transformY(30px);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(0px);
+  }
+}
+
+
+
+
+.toggle .line1 {
+  transform: rotate(45deg) translate(3px, 6px);
+  transition: transform 0.05s ease-in;
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(-45deg) translate(3px, -6px);
+  transition: transform 0.05s ease-in;
+}
+
+
+
+
