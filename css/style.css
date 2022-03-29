@@ -304,7 +304,7 @@ nav {
 @media screen and (max-width: 1300px){
   .logo {
     padding: 0%;
-    display: block;
+    display: none;
     width: 160px;
     color: white;
     font-weight: 300;
@@ -318,13 +318,14 @@ nav {
   }
 
   .nav-links {
+    align-content: center;
     height: 25%;
     margin-top: 3%;
     background-color: #6388D8;
     flex-direction: column;
     width: 100%;
     transform: translateY(20%);
-    transition: transform .5s ease-in;
+    transition: transform .0125s ease-in;
   }
 .nav-links li {
   border-bottom: 0px solid #fff;
@@ -388,7 +389,7 @@ nav {
 }
 
 hr.new1 {
-  border-top: .125px solid rgba(255, 255, 255, 0.7);
+  border-top: .25px solid;
 }
 
 br.separator {
