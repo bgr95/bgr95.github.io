@@ -23,7 +23,6 @@ body {
   height: 100%;
   position: relative;
 }
-
 a {
   color:rgba(255, 255, 255, 0.7);
   -webkit-transition: 0.05s;
@@ -35,36 +34,27 @@ a:hover, a:active, a:focus {
   outline: none;
   text-decoration: none;
 }
-
 p {
   margin-bottom: 1.5em;
 }
-
 h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 300;
   margin: 0 0 30px 0;
 }
-
 ::-webkit-selection {
   color: #fff;
   background: white;
 }
-
 ::-moz-selection {
   color: #fff;
   background: white;
 }
-
 ::selection {
   color: #fff;
   background: white;
 }
-
-
-
-
 #ron-header {
   display: flex;
   justify-content: center;
@@ -95,7 +85,6 @@ h1, h2, h3, h4, h5, h6 {
   max-width:160px;
   overflow: scroll;
 }
-
 #ron-header nav li a {
   padding: .5%;
   color: rgba(255, 255, 255, 0.7);
@@ -139,13 +128,11 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   font-weight: 400;
 }
-
 .ron-main {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .ron-feature {
   text-align: left;
   float: left;
@@ -158,7 +145,6 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
     font-weight: 400;
 }
-
 .ron-feature .ron-icon {
   float: left;
   width: 10%;
@@ -171,55 +157,44 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
   font-size: 50px;
 }
-
 .ron-feature.ron-feature-sm .ron-icon i {
   color: white;
   font-size: 20px;
 }
-
 .accordion > input[name="collapse"] {
   display: none;
   /*position: absolute;
   left: -100vw;*/
 }
-
 .accordion label,
 .accordion .content{
 }
-
 .accordion .content {
   overflow: hidden;
   height: 0;
   transition: 0.20s;
 }
-
 .accordion > input[name="collapse"]:checked ~ .content {
   height: 380px;
   transition: height 0.25s;
 }
-
 .accordion label { 
 }
-
 /* For Desktop */
 .accordion > input[name="collapse"]:checked ~ .content {
   height: auto;
 }
-
 .accordion a {
   color: color:rgba(255, 255, 255, 0.7);
 }
-
 .accordion > input[name="collapse"]:checked ~ .content {
   border-top: auto;
   transition: 0.25s;
 }
-
 .accordion .handle {
   margin: auto;
   font-size: auto;
 }
-
 .accordion label {
   cursor: pointer;
   font-weight: normal;
@@ -237,13 +212,11 @@ h1, h2, h3, h4, h5, h6 {
 .accordion > input[name="collapse"]:checked ~ .handle label:before {
     transition: 0.4s;
 }
-
 .logo a:hover, a:active, a:focus {
   color: white;
   outline: none;
   text-decoration: none;
 }
-
 nav {
   display: flex;
   justify-content: space-around;
@@ -252,7 +225,6 @@ nav {
   margin-right: 15%;
   min-height: 8vh;
 }
-
 .logo {
   padding: 0%;
   display: block;
@@ -260,13 +232,11 @@ nav {
   font-weight: 300;
   letter-spacing: 0px;
 }
-
 .nav-links {
   align-items: left;
   display: flex;
   justify-content: space-around;
 }
-
 .nav-links li {
   margin-top: 0%;
   padding-right: 30px;
@@ -283,7 +253,6 @@ nav {
   border-top: 1.5px solid #fff;
   transition: 0s;
 }
-
 .nav-links a {
   list-style: none;
   display: flex;
@@ -293,14 +262,12 @@ nav {
   display: none;
   cursor: pointer;
 }
-
 .burger div{
   width: 25px;
   height: 1.5px;
   background-color: white;
   margin: 5px;
 }
-
 @media screen and (max-width: 1300px){
   .logo {
     padding: 0%;
@@ -316,7 +283,6 @@ nav {
   .gap {
     margin-left: 40px;
   }
-
   .nav-links {
     align-content: center;
     height: 25%;
@@ -327,39 +293,34 @@ nav {
     transform: translateY(20%);
     transition: transform .0125s ease-in;
   }
-.nav-links li {
-  border-bottom: 0px solid #fff;
-  list-style: none;
-  float: center;
-  width: 360px;
-}
-.nav-links li a:hover{
-  margin-top: 0%;
-  padding-top: 0%;
-  border-bottom: 0px solid #fff;
-  border-top: 0px solid #fff;
-
-}
-  .nav-links {
-  opacity: 0;
-}
+  .nav-links li {
+    border-bottom: 0px solid #fff;
+    list-style: none;
+    float: center;
+    width: 360px;
+  }
+  .nav-links li a:hover{
+    margin-top: 0%;
+    padding-top: 0%;
+    border-bottom: 0px solid #fff;
+    border-top: 0px solid #fff;
+  }
+    .nav-links {
+    opacity: 0;
+  }
   .ron-main {
     opacity: 1;
   }
-
   .burger{
     display: block;
   }
 }
-
 .nav-active{
   opacity: 1;
 }
-
 .ron-main-active {
   opacity: 0;
 }
-
 @keyframes navLinksFade{
   from{
     opacity: 1;
@@ -370,29 +331,17 @@ nav {
     transform: translateY(0px);
   }
 }
-
-
-
-
 .toggle .line1 {
   transform: rotate(45deg) translate(3px, 6px);
   transition: transform 0.025s ease-in;
 }
-
 .toggle .line2 {
   opacity: 0;
 }
-
 .toggle .line3 {
   transform: rotate(-45deg) translate(3px, -6px);
   transition: transform 0.025s ease-in;
 }
-
 hr.new1 {
   border-top: .25px solid;
 }
-
-br.separator {
-  border-top: .125px solid rgba(255, 255, 255, 0.7);
-}
-
