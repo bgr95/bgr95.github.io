@@ -184,8 +184,8 @@ h1, h2, h3, h4, h5, h6 {
 .accordion > input[name="collapse"]:checked ~ .content {
   height: auto;
 }
-.accordion a {
-  color: color:rgba(255, 255, 255, 0.7);
+.accordion a:hover {
+  color: rgba(255, 255, 255, .775);
 }
 .accordion > input[name="collapse"]:checked ~ .content {
   border-top: auto;
@@ -244,12 +244,12 @@ nav {
   list-style: none;
   display: flex;
   float: ;
-  width: 165px;
+  width: 160px;
 }
 .nav-links li a:hover {
   color: rgba(255, 255, 255, 0.7);
   margin-top: -15%;
-  padding-top: 13.65%;
+  padding-top: 13.95%;
   border-top: 1.5px solid #fff;
   transition: 0s;
 }
