@@ -1,58 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+<style>
+.navbar {
+    margin: 20%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: ;
+    flex-direction: column;
+  }
+  .navbar li {
+    align-self: center;
+    font-size: 17px;
+    border-bottom: .25px solid;
+    list-style: none;
+    padding: 7.5px;    
+    width: auto;
+  }
+  .navbar li a:hover{
+    color: white;
+    border-top: none;
+    border-bottom: none;
+    margin-top: 0%;
+    padding-top: 0%;
+  }
 
+    .navbar ul {
+    column-count: 2;
+    column-rule: dotted 1px #333;
+    list-style-type: none;
+    list-style: none;
+    padding: 7.5px;    
+      }
+</style>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
-    <script>
-        const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
-const navLink = document.querySelectorAll(".nav-link");
-
-hamburger.addEventListener("click", mobileMenu);
-navLink.forEach(n => n.addEventListener("click", closeMenu));
-
-function mobileMenu() {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-}
-
-function closeMenu() {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
-}
-    </script>
+    
     <title>Hamburger Navbar</title>
 </head>
 
 <body>
     <header class="header">
         <nav class="navbar">
-            <a href="#" class="nav-logo">WebDev.</a>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Services</a>
+                    <a href="#" class="nav-link">Foundations of Physics</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Blog</a>
+                    <a href="#" class="nav-link">Algebraic Quantum Field Theory</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
+                    <a href="#" class="nav-link">Other Required Mathematics</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="#" class="nav-link">Research</a>
                 </li>
             </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
         </nav>
     </header>
 </body>
 
-<script src="/main.js"></script>
 </html>
