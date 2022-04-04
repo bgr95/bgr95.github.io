@@ -55,70 +55,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   background: white;
 }
-#ron-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 75px;
-  position: relative;
-  top: 0px;
-  bottom: auto;
-  padding: 0%;
-  width: 60.0%;
-  z-index: 1000;
-  background-color: #6388D8;
-}
-#ron-header nav {
-  margin-left: 0%;
-  text-align: ;
-}
-#ron-header nav ul {
-  padding: 0;
-  margin: 0;
-}
-#ron-header nav li {
-  padding: 0em;
-  list-style: none;
-  display: flex;
-  float: right;
-  width:160px;
-  max-width:160px;
-  overflow: scroll;
-}
-#ron-header nav li a {
-  padding: .5%;
-  color: rgba(255, 255, 255, 0.7);
-  display: ;
-  display: ;
-  zoom: 0;
-  *display: ;
-  -webkit-transition: 0.05s;
-  -o-transition: 0.05s;
-  transition: 0.05s;
-}
-#ron-header nav li a span {
-  -webkit-transition: 0.05s;
-  -o-transition: 0.025s;
-  transition: 0.025s;
-  border-top: 0em solid transparent;
-  display: block;
-}
-#ron-header nav li a:hover {
-    color: white;
-    font-weight: 400;
-}
-#ron-header nav li a:hover span {
-  -webkit-transition: 0.125s;
-  -o-transition: 0.125s;
-  transition: 0.125s;
-  border-top: 0em solid #fff;
-}
-#ron-header nav li.ron-active a {
-  color: #fff;
-}
-#ron-header nav li.ron-active a span {
-  border-bottom: 0px solid #fff;
-}
 .ron-section {
   justify-content: center;
   align-items: center;
@@ -277,8 +213,6 @@ nav {
   display: none;
 }
 
-
-
 @media screen and (max-width: 991px){
   .logo {
     padding: 0%;
@@ -325,8 +259,6 @@ nav {
     display: block;
   }
 }
-
-
 .toggle .line1 {
   transform: rotate(45deg) translate(3px, 6px);
   transition: transform 0.025s ease-in;
@@ -359,39 +291,4 @@ hr.new1 {
     margin-top: 0%;
     padding-top: 0%;
   }
-}
-
-
-
-
-.navbar {
-    margin: 20%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    background-color: ;
-    flex-direction: column;
-  }
-  .navbar li {
-    align-self: center;
-    font-size: 17px;
-    border-bottom: .25px solid;
-    list-style: none;
-    padding: 7.5px;    
-    width: 270px;
-  }
-  .navbar li a:hover{
-    color: white;
-    border-top: none;
-    border-bottom: none;
-    margin-top: 0%;
-    padding-top: 0%;
-  }
-
-    .navbar ul {
-    column-count: 2;
-    column-gap: 10px;
-    list-style-type: none;
-    border-bottom: .25px solid;
-    list-style: none;
-    padding: 7.5px;    
 }
