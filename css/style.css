@@ -15,7 +15,7 @@ body {
   min-height: 100vh;
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.7;
   color: #777777;
   color: #7f7f7f;
@@ -25,9 +25,9 @@ body {
 }
 a {
   color:rgba(255, 255, 255, 0.7);
-  -webkit-transition: 0.05s;
-  -o-transition: 0.05s;
-  transition: 0.05s;
+  -webkit-transition: 0.000s;
+  -o-transition: 0.000s;
+  transition: 0.000s;
 }
 a:hover, a:active, a:focus {
   color: white;
@@ -73,19 +73,17 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
   float: left;
   padding: 2%;
-  margin-left: 20%;
+  margin-left: 30%;
   width: 60%;
-  margin-right: 20%;
+  margin-right: 25%;
 }
 .ron-feature a:hover a:active {
   color: white;
     font-weight: 400;
 }
 .ron-feature .ron-icon {
-  float: left;
   width: 10%;
   max-width: 30%;
-  margin-left: 30%;
   display: block;
   margin-top: 5px;
 }
@@ -95,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .ron-feature.ron-feature-sm .ron-icon i {
   color: white;
-  font-size: 17px;
+  font-size: 15px;
 }
 .accordion > input[name="collapse"] {
   display: none;
@@ -111,11 +109,11 @@ h1, h2, h3, h4, h5, h6 {
 .accordion .content {
   overflow: hidden;
   height: 0;
-  transition: 0.20s;
+  transition: .20s;
 }
 .accordion > input[name="collapse"]:checked ~ .content {
   height: 380px;
-  transition: height 0.25s;
+  transition: height .25s;
 }
 .accordion label { 
 }
@@ -128,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .accordion > input[name="collapse"]:checked ~ .content {
   border-top: auto;
-  transition: 0.25s;
+  transition: .35s;
 }
 .accordion .handle {
   margin: auto;
@@ -143,13 +141,13 @@ h1, h2, h3, h4, h5, h6 {
 .accordion label:focus {
 }
 .accordion .handle label:before {
-  font-size: 1em;
+  font-size: ;
   line-height: 1.556em;
   vertical-align: middle;
-  transition: 0.4s;
+  transition: .4s;
 }
 .accordion > input[name="collapse"]:checked ~ .handle label:before {
-    transition: 0.4s;
+    transition: .4s;
 }
 .logo a:hover, a:active, a:focus {
   color: white;
@@ -160,7 +158,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: ;
-  margin-left: 15%;
+  margin-left: 17%;
   margin-right: 15%;
   min-height: 8vh;
 }
@@ -179,19 +177,19 @@ nav {
 
 .nav-links li {
   margin-top: 0%;
-  font-size: 17px;
-  padding-right: 15px;
+  font-size: 15px;
+  padding-right: 10px;
   border-top: 0px solid transparent;
   list-style: none;
   display: flex;
   float: ;
-  width: 135px;
+  width: 120px;
 }
 .nav-links li a:hover {
   color: rgba(255, 255, 255, 0.7);
-  margin-top: -17.5%;
-  padding-top: 16.2%;
-  border-top: 1.5px solid #fff;
+  margin-top: -19%;
+  padding-top: 17.5%;
+  border-top: 2px solid #fff;
   transition: 0s;
 }
 .nav-links a {
@@ -234,7 +232,7 @@ nav {
     flex-direction: column;
   }
   .nav-links li {
-    font-size: 17px;
+    font-size: 14px;
     border-bottom: .25px solid;
     list-style: none;
     padding: 7.5px;    
