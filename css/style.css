@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 30%;
   margin-left: 30%;
   display: block;
-  margin-top: 5px;
+  margin-top: 0px;
 }
 .ron-feature .ron-icon i {
   color: white;
@@ -180,18 +180,18 @@ nav {
 .nav-links li {
   margin-top: 0%;
   font-size: 15px;
-  padding-right: 10px;
+  padding-right: 5px;
   border-top: 0px solid transparent;
   list-style: none;
   display: flex;
   float: ;
-  width: 120px;
+  width: 115px;
 }
 .nav-links li a:hover {
   color: rgba(255, 255, 255, 0.7);
   margin-top: -19%;
-  padding-top: 17.5%;
-  border-top: 2px solid #fff;
+  padding-top: 17.75%;
+  border-top: 1.5px solid #fff;
   transition: 0s;
 }
 .nav-links a {
