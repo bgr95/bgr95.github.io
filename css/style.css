@@ -75,15 +75,17 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2%;
   margin-left: 30%;
   width: 60%;
-  margin-right: 25%;
+  margin-right: 20%;
 }
 .ron-feature a:hover a:active {
   color: white;
     font-weight: 400;
 }
 .ron-feature .ron-icon {
+  float: left;
   width: 10%;
   max-width: 30%;
+  margin-left: 30%;
   display: block;
   margin-top: 5px;
 }
@@ -158,8 +160,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: ;
-  margin-left: 17%;
-  margin-right: 15%;
+  margin-left: 20%;
+  margin-right: 20%;
   min-height: 8vh;
 }
 .logo {
@@ -232,7 +234,7 @@ nav {
     flex-direction: column;
   }
   .nav-links li {
-    font-size: 14px;
+    font-size: 13px;
     border-bottom: .25px solid;
     list-style: none;
     padding: 7.5px;    
@@ -276,7 +278,7 @@ hr.new1 {
 
 @media screen and (max-width: 991px){
   .nav-links {
-    margin-left: 10%;
+    margin-left: 5%;
     margin-right: 20%;
     margin-top: 0%;
     margin-bottom: 0%;
