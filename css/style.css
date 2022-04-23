@@ -172,26 +172,23 @@ nav {
   letter-spacing: 0px;
 }
 .nav-links {
-  align-items: left;
   display: flex;
-  justify-content: space-around;
 }
-
 .nav-links li {
   margin-top: 0%;
   font-size: 15px;
-  padding-right: 5px;
+  padding-right: 10px;
   border-top: 0px solid transparent;
   list-style: none;
   display: flex;
   float: ;
-  width: 115px;
+  max-width: 115px;
 }
 .nav-links li a:hover {
   color: rgba(255, 255, 255, 0.7);
-  margin-top: -19%;
-  padding-top: 17.75%;
-  border-top: 1.5px solid #fff;
+  margin-top: -21px;
+  padding-top: 19.5px;
+  border-top: 1.75px solid #fff;
   transition: 0s;
 }
 .nav-links a {
@@ -238,7 +235,7 @@ nav {
     border-bottom: .25px solid;
     list-style: none;
     padding: 7.5px;    
-    width: auto;
+    max-width: 275px;
   }
   .nav-links li a:hover{
     color: white;
@@ -247,7 +244,6 @@ nav {
     margin-top: 0%;
     padding-top: 0%;
   }
-
   .nav-links ul {
   column-count: 2;
   column-rule: dotted 1px #333;
@@ -273,13 +269,10 @@ nav {
 hr.new1 {
   border-top: .25px solid;
 }
-
-
-
 @media screen and (max-width: 991px){
   .nav-links {
-    margin-left: 5%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 15%;
     margin-top: 0%;
     margin-bottom: 0%;
     flex-direction: column;
@@ -292,11 +285,9 @@ hr.new1 {
     padding-top: 0%;
   }
 }
-
 details[open] summary ~ * {
   animation: open 0.3s ease-in-out;
 }
-
 @keyframes open {
   0% {
     opacity: 0;
