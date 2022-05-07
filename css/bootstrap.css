@@ -1929,7 +1929,6 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
-
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -1950,12 +1949,12 @@ pre code {
 }
 @media (min-width: 991px) {
   .container {
-    width: 980px;
+    width: 1080px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1180px;
+    width: 1080px;
   }
 }
 
