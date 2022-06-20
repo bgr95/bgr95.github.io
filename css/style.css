@@ -286,15 +286,20 @@ details summary::-webkit-details-marker {
 }
 
 .back1 {
+min-width: 60px;
 max-width: 95px;
 }
 .back2 {
+  min-width: 60px;
 max-width: 112px;
 }
 .back3 {
+  min-width: 60px;
+
 max-width: 100px;
 }
 .back4 {
+  min-width: 60px;
 max-width: 90px;
 }
 .back5 {
