@@ -17,20 +17,19 @@ body {
   font-weight: 300;
   font-size: 15px;
   line-height: 1.7;
-  color: #777777;
-  color: #7f7f7f;
+  color: #000;
   background: #fff;
   height: 100%;
   position: relative;
 }
 a {
-  color:rgba(255, 255, 255, 0.7);
+  color: #000;
   -webkit-transition: 0.000s;
   -o-transition: 0.000s;
   transition: 0.000s;
 }
 a:hover, a:active, a:focus {
-  color: white;
+  color: black;
   outline: none;
   text-decoration: none;
 }
@@ -44,16 +43,16 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 30px 0;
 }
 ::-webkit-selection {
-  color: #fff;
-  background: white;
+  color: black;
+  background: RGB(183,201,226);
 }
 ::-moz-selection {
-  color: #fff;
-  background: white;
+  color: black;
+  background: RGB(183,201,226);
 }
 ::selection {
-  color: #fff;
-  background: white;
+  color: black;
+  background: #ededed;
 }
 .ron-section {
   justify-content: center;
@@ -61,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 4% 0;
 }
 .ron-section p.ron-active a:hover {
-  color: white;
+  color: lightgray;
   font-weight: 400;
 }
 .ron-main {
@@ -78,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 30%;
 }
 .ron-feature a:hover a:active {
-  color: white;
+  color: black;
     font-weight: 400;
 }
 .ron-feature .ron-icon {
@@ -90,11 +89,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
 }
 .ron-feature .ron-icon i {
-  color: white;
+  color: black;
   font-size: 50px;
 }
 .ron-feature.ron-feature-sm .ron-icon i {
-  color: white;
+  color: black;
   font-size: 15px;
 }
 .accordion > input[name="collapse"] {
@@ -103,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   left: -100vw;*/
 }
 .accordion-handle a:hover{
-  color: white;
+  color: black;
 }
 .accordion label,
 .accordion .content{
@@ -124,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
   height: auto;
 }
 .accordion a:hover {
-  color: rgba(255, 255, 255, .95);
+  color: black;
 }
 .accordion > input[name="collapse"]:checked ~ .content {
   border-top: auto;
@@ -152,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: .4s;
 }
 .logo a:hover, a:active, a:focus {
-  color: white;
+  color: black;
   outline: none;
   text-decoration: none;
 }
@@ -167,7 +166,7 @@ nav {
 .logo {
   padding: 0%;
   display: ;
-  color: white;
+  color: black;
   font-weight: 300;
   letter-spacing: 0px;
 }
@@ -184,10 +183,10 @@ nav {
   display: flex;
 }
 .nav-links li a:hover {
-  color: rgba(255, 255, 255, 0.7);
+  color: black;
   margin-top: -21px;
   padding-top: 19.5px;
-  border-top: 1.75px solid #fff;
+  border-top: 1.75px solid black;
   transition: 0s;
 }
 .nav-links a {
@@ -202,7 +201,7 @@ nav {
 .burger div{
   width: 25px;
   height: 1.5px;
-  background-color: white;
+  background-color: black;
   margin: 5px;
 }
 .back {
@@ -231,7 +230,7 @@ nav {
     flex-direction: column;
   }
   .nav-links li:hover{
-    background-color: rgba(255, 255, 255, .35);
+    background-color: black;
   }
   .nav-links li {
     flex-direction: column;
@@ -244,15 +243,15 @@ nav {
     max-width: 275px;
   }
   .nav-links li a:hover{
-    color: white;
+    color: black;
     border-top: none;
     border-bottom: none;
     margin-top: 0%;
     padding-top: 0%;
   }
   .nav-links div:hover {
-    background-color: white;
-    color: white;
+    background-color: black;
+    color: black;
   }
   .burger{
     display: block;
