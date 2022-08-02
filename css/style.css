@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 380px;
   transition: height .25s;
 }
-.accordion label { 
+.accordion label {
 }
 /* For Desktop */
 .accordion > input[name="collapse"]:checked ~ .content {
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 .accordion label {
   cursor: pointer;
   font-weight: normal;
-  user-select: none;  
+  user-select: none;
 }
 .accordion label:hover,
 .accordion label:focus {
@@ -230,27 +230,27 @@ nav {
     flex-direction: column;
   }
   .nav-links li:hover{
-    background-color: black;
+    background-color: #ededed;
   }
   .nav-links li {
     flex-direction: column;
     justify-content: center;
     font-size: 14px;
-    border-bottom: .25px solid;
+    border-bottom: .25px solid #BEC0C2;
     list-style: none;
     padding: 7.5px;
-    min-width: 200px; 
+    min-width: 200px;
     max-width: 275px;
   }
   .nav-links li a:hover{
-    color: black;
+    color: ;
     border-top: none;
     border-bottom: none;
     margin-top: 0%;
     padding-top: 0%;
   }
   .nav-links div:hover {
-    background-color: black;
+    background-color: #ededed;
     color: black;
   }
   .burger{
@@ -269,10 +269,10 @@ nav {
   transition: transform 0.025s ease-in;
 }
 hr.new1 {
-  border-top: .25px solid;
+  border-top: .25px solid #BEC0C2;
 }
 @media screen and (max-width: 991px){
- 
+
 }
 details[open] summary ~ * {
   animation: open 0.3s ease-in-out;
