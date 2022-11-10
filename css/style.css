@@ -23,7 +23,7 @@ body {
   position: relative;
 }
 a {
-  color: #000;
+  color: #68696b;
   -webkit-transition: 0.000s;
   -o-transition: 0.000s;
   transition: 0.000s;
@@ -154,6 +154,18 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
   outline: none;
   text-decoration: none;
+}
+.twitter {
+  color: #86bacf;
+}
+.twitter:hover {
+  color: #00acee
+}
+.mail {
+  color: #d18a88;
+}
+.mail:hover {
+  color: #d64945;
 }
 nav {
   display: flex;
