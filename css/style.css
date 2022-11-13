@@ -254,6 +254,9 @@ nav {
     min-width: 200px;
     max-width: 275px;
   }
+  .nav-links li a {
+    justify-content: center;
+  }
   .nav-links li a:hover{
     color: ;
     border-top: none;
