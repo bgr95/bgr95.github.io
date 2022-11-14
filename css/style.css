@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: .4s;
 }
 .accordion > input[name="collapse"]:checked ~ .handle label:before {
-    transition: .4s;
+    transition: 1.4s;
 }
 .logo a:hover, a:active, a:focus {
   color: black;
