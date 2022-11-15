@@ -59,6 +59,11 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   padding: 4% 0;
 }
+.ron-section2 {
+  justify-content: center;
+  align-items: center;
+  padding: 2% 0;
+}
 .ron-section p.ron-active a:hover {
   color: lightgray;
   font-weight: 400;
@@ -219,11 +224,23 @@ nav {
 .back {
   display: none;
 }
+.blogintro {
+  margin-top: 50px;
+  margin-left: 25%;
+  margin-right: 40%;
+  max-width: 400px
+}
 
 @media screen and (max-width: 991px){
   .logo {
     padding: 0%;
     display: none;
+  }
+  .blogintro {
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    max-width: 400px
   }
   .back:hover {
     background-color: #a2b8e8;
@@ -286,6 +303,9 @@ nav {
 hr.new1 {
   border-top: .25px solid #BEC0C2;
 }
+hr.new2 {
+  border-top: .25px solid black;
+}
 @media screen and (max-width: 991px){
 
 }
@@ -309,8 +329,12 @@ min-width: 60px;
 max-width: 95px;
 }
 .back2 {
+  min-width: 50px;
+  max-width: 80px;
+}
+.back21 {
   min-width: 47.5px;
-max-width: 80px;
+  max-width: 80px;
 }
 .back3 {
   min-width:44px;
