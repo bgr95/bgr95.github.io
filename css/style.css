@@ -229,6 +229,16 @@ nav {
   margin-top: 50px;
   max-width: 400px
 }
+.gap {
+  margin-left: 0px;
+}
+.gapa {
+  margin-left: 0px;
+  color: black;
+	margin-top: -21px;
+	padding-top: 19.5px;
+	border-top: 1.75px solid black;
+}
 
 @media screen and (max-width: 991px){
   .logo {
@@ -247,6 +257,14 @@ nav {
   .gap {
     margin-left: 0px;
   }
+  .gapa {
+    margin-left: 0px;
+    font-weight: 400;
+    color: black;
+    margin-top: -21px;
+    padding-top: 19.5px;
+    border-top: 1.75px solid transparent;
+  }
   .back {
     display: block;
   }
@@ -263,7 +281,7 @@ nav {
   .nav-links li {
     flex-direction: column;
     justify-content: center;
-    font-size: 14px;
+    font-size: 15px;
     border-bottom: .25px solid #BEC0C2;
     list-style: none;
     padding: 7.5px;
