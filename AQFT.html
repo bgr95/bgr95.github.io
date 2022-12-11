@@ -19,13 +19,13 @@
 	<div class="container">
 		<nav class="" style="float: right;  vertical-align: bottom;">
 			<ul style="margin-top: 5%; text-align: initial;">
-				<li style="float:right; list-style: none;"><a href="notes.html"><span style="color: black; font-size: 90%; font-weight: 300;">Go back</span></a></li>
+				<li style="float:right; list-style: none;"><a href="notes.html"><span style="color: black; font-size: 90%; font-weight: 400;">Notes</span></a> | <a href="index.html"><span style="color: black; font-size: 90%; font-weight: 300;">Home</span></a></li>
 			</ul>
 		</nav>
 	</div>
 </div>
 <div class="ron-main">
-	<div class="" style="color: black; margin-top: 25px; margin-left: 20%; margin-right: 30%; max-width: 410px">
+	<div class="" style="color: black; margin-top: 5px; margin-left: 20%; margin-right: 30%; max-width: 410px">
 						<hr class="new1">
 						<section id="FA" class="">
 						<p class="handle">
@@ -50,21 +50,19 @@
 						<l style="font-weight: 350;font-size:  100%;">Part II:<a href="PDF/AQT/Gelfand.pdf" target="_blank" style="font-weight: 300;"> Gelfand-Naimark Theory</a></l><br>
 						<l style="font-weight: 350;font-size:  100%;">Part III:<a href="PDF/AQT/Observables and States.pdf" target="_blank" style="font-weight: 300;"> Observables and States</a></l><br>
 						<l style="font-weight: 350;font-size:  100%;">Part IV:<a href="PDF/AQT/Representation.pdf" target="_blank" style="font-weight: 300;"> Representations and GNS Construction</a></l><br>
-						<l style="font-weight: 350;font-size:  100%;">*Part V:<a target="_blank" style="font-weight: 300;"> von Neumann algebras</a></l><br>
 						</p>
 						<hr class="new1">
-						<l style="font-weight: 400;font-size:  100%;color: ;"><a style="color: black">Fourier Analysis</a></l>
+
+						<l style="font-weight: 400;font-size:  100%;color: ;"><a style="color: black">Distributions & Hyperfunctions</a><sup>**</sup></l>
 						<br><br>
-						Harmonic analysis tools allow us to construct some useful functions using physical state. These are my concise notes based on Folland's <a href="https://www.uni-math.gwdg.de/graboluk/seminar-2010/HarmonicAnalysisCourse.pdf" target="_blank">book</a>.<br><br>Prerequisites: <a style="font-weight:" href="PDF/AQT/Gelfand.pdf">Gelfand-Naimark Theory</a>.<br><br>
-						<l style="font-weight: 350;font-size:  100%;">Part Ia: <a href="PDF/AQFT/LCG.pdf" target="_blank" style="color: ; font-weight: 300;">Locally Compact Groups</a><br>
-						<l style="font-weight: 350;font-size:  100%;">Part Ib: <a href="PDF/AQFT/Fourier.pdf" target="_blank" style="color: ; font-weight: 300;">The Fourier Transform & Pontrjagin Duality</a><br>
-						<l style="font-weight: 350;font-size:  100%;">*Part II: <a target="_blank" style="color: ; font-weight: 300;">Translation Group & its Dual</a><br>
-						<hr class="new1">
-						<l style="font-weight: 400;font-size:  100%;color: ;"><a style="color: black">Analytic Continuation</a><sup>*</sup></l>
+						These are notes based on H&ouml;rmander's dense <a href="https://www.elsevier.com/books/an-introduction-to-complex-analysis-in-several-variables/hormander/978-0-444-88446-6" target="_blank">book</a> and Treves' recent <a href="https://link.springer.com/book/10.1007/978-3-030-94055-3?utm_medium=referral&utm_source=google_books&utm_campaign=3_pier05_buy_print&utm_content=en_08082017" target="_blank">book</a>.<br><br>
+						Prerequisites: <a style="font-weight:" href="PDF/AQFT/DiffCalc.pdf" target="_blank">Differential Calculus</a>.<br><br>
+						These notes are based on H&ouml;rmander's dense book, The Analysis of Linear Partial Differential Operators I.
+						<br>
+						<br>
+						<l style="font-weight: 300;font-size:  105%;color: ;">Differentiation & Integration</l><br><br>
+
 						<br><br>
-						Complex analysis in several variables provides the tools needed to study the functions constructed above.<br><br>
-						Prerequisites: <a style="font-weight:" href="PDF/AQFT/CANA.pdf" target="_blank">Complex Analysis in One Variable</a>.<br><br>
-						<l style="font-weight: 350;font-size:  100%;">*Part I: <a target="_blank" style="color: ; font-weight: 300;">Several Complex Variables</a><br>
 						<hr class="new1">
 						<l style="font-weight: 400;font-size:  100%;color: ;"><a style="color: black">Recovering the Translation Group</a><sup>**</sup></l>
 						<br><br>
@@ -111,7 +109,88 @@
 			</div>
 			</section>
 			<hr class="new1">
-			<!--<section class="accordion">
+			<p>The mathematical prerequisites for AQFT are listed below.</p>
+			<hr class="new1">
+			<section class="accordion">
+			<input type="checkbox" name="collapse" id="Operator Algebras">
+			<p class="handle"><label for="Operator Algebras">
+			<l style="font-weight: 400;font-size:  105%;color: ;"><a style="color: black">Operator Algebras & Analysis<sup>***</sup></a></l></label>
+			</p>
+			<div class="content">
+				<br>
+				Quantum field theories are quantum theories with relativistic constraints. The mathematics required is the theory of operator algebars, and the analysis of locally compact abelian groups (LCAG).<br>
+				<hr class="new1">
+				<l style="font-weight: 400;font-size:  100%;color: ;"><a style="color: black">C<sup>*</sup>-Algebras & von Neumann Algebras</a></l>
+				<br><br>
+				The starting point of quantum theory is the lattice of projection operators, which are abstractly described by the theory of operator algebras. We follow <a href="https://www.elsevier.com/books/c-algebras-and-their-automorphism-groups/eilers/978-0-12-814122-9" target="_blank">Pedersen</a>.
+				<br><br>
+				Prerequisites: <a style="font-weight:" href="PDF/AQFT/Measure.pdf">Measure theory</a> & <a style="font-weight:" href="PDF/AQFT/FA.pdf">Functional analysis</a>.<br><br>
+				<l style="font-weight: 350;font-size:  100%;">Part I: <a href="PDF/AQFT/Gelfand.pdf" target="_blank" style="color: ; font-weight: 300;">Gelfand-Naimark Theory</a><br>
+				<l style="font-weight: 350;font-size:  100%;">Part II: <a href="PDF/AQFT/Density.pdf" target="_blank" style="color: ; font-weight: 300;">Density Theorems</a><br>
+				<l style="font-weight: 350;font-size:  100%;">Part III: <a href="PDF/AQFT/Representation.pdf" target="_blank" style="font-weight: 300;">Functionals & Representations</a></l><br>
+				<l style="font-weight: 350;font-size:  100%;">Part IV: <a href="PDF/AQFT/vonNeumann.pdf" target="_blank" style="font-weight: 300;"> von Neumann algebras</a></l><br>
+				<l style="font-weight: 350;font-size:  100%;">Part V: <a href="PDF/AQFT/Decomposition.pdf" target="_blank" style="font-weight: 300;">Decomposition Theory</a></l><br>
+				<l style="font-weight: 350;font-size:  100%;">Part VI: <a href="PDF/AQFT/Weights.pdf" target="_blank" style="font-weight: 300;">Weights</a></l><br>
+				<hr class="new1">
+				<l style="font-weight: 400;font-size:  100%;color: ;"><a style="color: black">Tomita-Takesaki Modular Theory</a></l>
+				<br><br>
+				The main tool for studying von Neumann algebras in AQFT is the Tomita-Takesaki modular theory. We follow <a> Takesaki</a>.
+				<br><br>
+				Prerequisites: C<sup>*</sup>-Algebras & von Neumann Algebras.<br><br>
+				<l style="font-weight: 350;font-size:  100%;">Part I: <a href="PDF/AQFT/LeftHilbert.pdf" target="_blank" style="color: ; font-weight: 300;">Left Hilbert Algebras</a><br>
+				<hr class="new1">
+				<l style="font-weight: 400;font-size:  100%;color: ;"><a style="color: black">Fourier Analysis on LCAG</a></l>
+				<br><br>
+				Harmonic analysis tools allow us to construct some useful functions using physical state. These are my concise notes based on Folland's <a href="https://www.uni-math.gwdg.de/graboluk/seminar-2010/HarmonicAnalysisCourse.pdf" target="_blank">book</a>.<br><br>
+				Prerequisites: <a style="font-weight:" href="PDF/AQT/Gelfand.pdf">Gelfand-Naimark Theory</a>.<br><br>
+				<l style="font-weight: 350;font-size:  100%;">Part Ia: <a href="PDF/AQFT/LCG.pdf" target="_blank" style="color: ; font-weight: 300;">Locally Compact Groups</a><br>
+				<l style="font-weight: 350;font-size:  100%;">Part Ib: <a href="PDF/AQFT/Fourier.pdf" target="_blank" style="color: ; font-weight: 300;">The Fourier Transform & Pontrjagin Duality</a><br>
+				<l style="font-weight: 350;font-size:  100%;">*Part II: <a target="_blank" style="color: ; font-weight: 300;">Translation Group & its Dual</a><br>
+			</div>
+			</section>
+			<hr class="new1">
+		<section class="accordion">
+		<input type="checkbox" name="collapse" id="Distri">
+		<p class="handle"><label for="Distri">
+		<l style="font-weight: 400;font-size:  105%;color: ;"><a style="color: black">Analytic Partial Differential Equations<sup>***</sup></a></l></label>
+	</p>
+	<div class="content"><br>
+		The goal of these notes is to equip the reader with analytic background needed to work in AQFT. The main tool required is the theory of analytic continuation.
+		<br>
+		<hr class="new1">
+		<l style="font-weight: 400;font-size:  100%;color: ;"><a style="color: black">Several Complex Variables</a><sup>**</sup></l>
+		<br><br>
+		These notes are based on H&ouml;rmander's <a href="https://www.elsevier.com/books/an-introduction-to-complex-analysis-in-several-variables/hormander/978-0-444-88446-6" target="_blank">book</a>. We will also use Vladimirov's <a href="https://store.doverpublications.com/0486458121.html">book</a>.<br><br>
+		Prerequisites: <a style="font-weight:" href="PDF/AQFT/CANA.pdf" target="_blank">Complex Analysis in One Variable</a>.<br><br>
+		<l style="font-weight: 350;font-size:  100%;">*Part I: <a target="_blank" style="color: ; font-weight: 300;">Domains of Holomorphy</a><br>
+		<hr class="new1">
+		<l style="font-weight: 400;font-size:  100%;color: ;"><a style="color: black">Distributions & Microlocal Analysis</a><sup>***</sup></l>
+		<br><br>
+		These notes are based on H&ouml;rmander's <a href="" target="_blank">book</a>.<br><br>
+		Prerequisites: Differential Calculus.<br><br>
+		<l style="font-weight: 350;font-size:  100%;">*Part I: <a target="_blank" style="color: ; font-weight: 300;">Differential Operators</a><br>
+	</div>
+		</section>
+		<hr class="new1">
+		<section class="accordion">
+		<input type="checkbox" name="collapse" id="Diffgeom">
+		<p class="handle"><label for="Diffgeom">
+		<l style="font-weight: 400;font-size:  105%;color: ;"><a style="color: black">Differential Geometry<sup>*</sup></a></l></label>
+		</p>
+		<div class="content"><br>
+			<br>
+			<hr class="new1">
+			<l style="font-weight: 400;font-size:  100%;color: ;"><a style="color: black">Lie Groups & Lie Algebras</a><sup></sup></l>
+			<br><br>
+			Prerequisites: <a style="font-weight:" href="PDF/Sheaf/DiffGeom.pdf" target="_blank">Differetial Geometry</a>.<br><br>
+			<l style="font-weight: 350;font-size:  100%;">*Part I: <a target="_blank" style="color: ; font-weight: 300;">Lie Groups & Algebras</a><br>
+			<l style="font-weight: 350;font-size:  100%;">*Part II: <a target="_blank" style="color: ; font-weight: 300;">Enveloping Algebras & Casimir Operators</a><br>
+			<hr class="new1">
+		</div>
+		</section>
+		<hr class="new1">
+		<br><br>
+						<!--<section class="accordion">
 			<input type="checkbox" name="collapse" id="Curved">
 			<p class="handle"><label for="Curved">
 			<l style="font-weight: 400;font-size:  105%;color: ;"><a style="color: black">AQFT in Curved Spacetime</a><sup>**</sup></l></label>
