@@ -166,6 +166,13 @@ h1, h2, h3, h4, h5, h6 {
 .twitter:hover {
   color: #00acee
 }
+
+.substack {
+  color: #ffaf7a;
+}
+.substack:hover {
+  color: #ff781f
+}
 .mail {
   color: #d18a88;
 }

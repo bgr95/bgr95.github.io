@@ -420,6 +420,9 @@
 .icon-bar-chart-o:before {
     content: "\f080";
 }
+.icon-substack:before {
+    content: "\f02e";
+}
 .icon-twitter-square:before {
     content: "\f081";
 }
@@ -2517,4 +2520,3 @@
 .icon-dribbble2:before {
     content: "\e063";
 }
-
