@@ -74,8 +74,8 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 .ron-feature {
-  text-align: left;
-  float: left;
+  text-align: ;
+  float: ;
   padding: 2%;
   margin-left: 30%;
   width: 60%;
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
 .ron-feature .ron-icon {
-  float: left;
+  float: ;
   width: 10%;
   max-width: 30%;
   margin-left: 30%;
@@ -277,7 +277,7 @@ nav {
   }
   .nav-links {
     margin-left: 0%;
-    margin-right: 10%;
+    margin-right: 0%;
     margin-top: 0%;
     margin-bottom: 0%;
     flex-direction: column;
@@ -367,7 +367,7 @@ max-width: 70px;
 }
 .back4 {
   min-width: 75px;
-max-width: 90px;
+  max-width: 90px;
 }
 .back5 {
 max-width: 90px;
