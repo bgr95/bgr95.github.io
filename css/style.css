@@ -22,6 +22,14 @@ body {
   height: 100%;
   position: relative;
 }
+.showcase {
+      background-image: url("background.jpg");
+      background-size:100% auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.6;
+    }
 a {
   color: #68696b;
   -webkit-transition: 0.000s;

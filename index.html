@@ -13,7 +13,15 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
 	<style>
-	@media screen and (max-width: 991px) {
+	.ron-content {
+		display: block; max-width: 250px; margin-left: auto; margin-right: auto;
+	}
+
+	@media screen and (max-width: 600px) {
+		.ron-content {
+			display: block; max-width: 50%; margin-left: auto; margin-right: auto;
+		}
+
 		.ron-feature {
 		  text-align: center;
 		  padding: 2%;
@@ -26,10 +34,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=.60, maximum-scale=1.50">
 	</head>
 <body style="background-color: white;">
-<div class="ron-section" style="float: center;">
+	<img src="images/background.jpg" style="position: fixed; opacity: .05; background-color: white;"></img>
+<div class="ron-section" style="float: center; position: relative;">
 	<center style="margin-top: 2.5%; list-style: none;"><a><span style="color: black; font-size: 90%; font-weight: 400;">About</span></a> | <a href="notes.html"><span style="color: black; font-size: 90%; font-weight: 300;">Notes</span></a> | <a href="publications.html"><span style="color: black; font-size: 90%; font-weight: 300;">Research</span></a></center>
 <img style="margin-top: 3.5ex; max-width: 22.5ex; display:block; margin-left: auto; margin-right: auto;" src="images/Pajeet.jpg" ></img>
-<p style="font-size: 90%; margin-top: 3.5ex; display: block; text-align: justify; max-width: 250px; margin-left: auto; margin-right: auto;">
+<p class="ron-content" style="font-size: 90%; margin-top: 3.5ex;">
 I work in quantum foundations and quantum gravity from an abstract and rigorous point of view via AQFT.<br><br>
 
 Outside physics, I enjoy yoga, & hiking.</p>
