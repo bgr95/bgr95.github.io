@@ -12,38 +12,107 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/style.css">
+	<style>
+	ol {
+	  padding-left: 11.5px;
+	  margin-left: 11.5px;
+	}
+
+	.accordion {
+	  max-width: 500px;
+	  margin: 0 auto;
+	}
+
+	input[type="checkbox"] {
+	  display: none;
+	}
+
+	label {
+	  display: block;
+	  cursor: pointer;
+	  padding: 10px;
+	  background-color: #F6F6F6;
+	  border-radius: 4px;
+	  margin-bottom: 5px;
+	  transition: background-color 0.3s ease;
+	}
+
+	label:hover {
+	  background-color: #EFEFEF;
+	}
+
+	.content {
+	  max-height: 0;
+	  overflow: hidden;
+	  transition: max-height 0.3s ease;
+	}
+
+	input[type="checkbox"]:checked + label {
+	  background-color: #EFEFEF;
+	}
+
+	input[type="checkbox"]:checked + label + .content {
+	  max-height: 500px; /* Adjust the value to fit your content */
+	  padding: 10px;
+	  background-color: #F6F6F6;
+	  border-radius: 4px;
+	}
+	</style>
 	</head>
+
 <body style="background-color: white;">
 	<div class="ron-section" style="float: center;">
-		<center style="margin-top: 2.5%; list-style: none;"><a href="index.html"><span style="color: black; font-size: 90%; font-weight: 300;">About</span></a> | <a href="notes.html"><span style="color: black; font-size: 90%; font-weight: 300;">Notes</span></a> | <a><span style="color: black; font-size: 90%; font-weight: 400;">Research</span></a></center>
-	</div>
+		<center style="margin-top: 2.5%; list-style: none;"><a href="index.html"><span style="color: black; font-size: 90%; font-weight: 300;">About</span></a> | <a><span style="color: black; font-size: 90%; font-weight: 400;">Research</span></a></center>
 <div class="ron-main">
-	<div class="" style="margin-top: 1.25%; float: center; max-width: 410px; font-size: 90%">
-		<hr class="new1">
-			<p>My research statement can be found <a href="PDF/Research/Statement.pdf" style="font-weight: 400; color: black;">here</a>.<br></p>
+	<div class="" style="margin-top: 2.5%; float: center; max-width: 375px; font-size: 90%">
+		<!--<l style="font-weight: 500; font-size: 110%">Research</l><br><br>-->
+			<p>My main research interest is in local quantum physics. Induced interests include operator algebras, complex analysis, harmonic analysis, and distributions.<br><br>
+				My research statement can be found <a href="PDF/Research/Statement.pdf" style="font-weight: 400; color: black;">here</a>.<br></p>
+		<div class="accordion1">
+		<input type="checkbox" id="item" name="accordion1"/>
+		<label for="item" style="font-weight: 400; font-size:100%">Publications & Preprints<sup>1</sup></label>
+		<div class="content">
+		<ol>
+			<li>Emergence of Time in a Participatory Universe<br><a href="PDF/Research/Time.pdf">Preprint</a></li>
+		</ol>
+		</div>
+		<br><!--<l style="font-weight: 500; font-size: 110%">Expository Notes</l><br>-->
+		The following are my notes, prioritizing crisp and concise presentation of core ideas. I emphasize motivation and intuition over boring details.<sup style="font-weight: 400">2</sup><br><br>
+			<div class="accordion1">
+				<input type="checkbox" id="item1" name="accordion1" style=""/>
+				<label for="item1" style="font-weight: 400; font-size:100%;">Quantum Foundations</label>
+				<div class="content" style="">
+					My interests lie in the interpretation of quantum states, the measurement problem, and operational approaches.<br><br>
+					<ol>
+						<li value="Part I" style="font-weight: 350;font-size:  100%;"><a href="PDF/SIQT/Reconstruction.pdf" style="font-weight: 300;"> Reconstruction of Quantum Theory</a></li>
+						<li value="Part II" style="font-weight: 350;font-size:  100%;"><a href="PDF/SIQT/Interpretations.pdf" style="font-weight: 300;"> Interpretations<sup>*</sup></a></li>
+					</ol>
+				</div>
+				<input type="checkbox" id="item2" name="accordion1"/>
+				<label for="item2" style="font-weight: 400; font-size:100%">Algebraic Quantum Field Theory</label>
+				<div class="content" style="">
+					My focus is using tools of operator algebras to extract geometric data about underlying space-time. Based on my masters thesis.<br><br>
+					Prerequisites: <a style="font-weight:" href="PDF/AQFT/Measure.pdf">Measure theory</a>;<a style="font-weight:" href="PDF/AQFT/LocallyConvex.pdf"> Locally convex spaces<sup>**</sup></a>;<a href="PDF/AQFT/CANA.pdf"> Complex analysis</a>;<a href="PDF/AQFT/Harmonic.pdf"> Harmonic analysis</a>;<a href="PDF/AQFT/Distributions.pdf"> Distributions<sup>**</sup></a>.<br><br>
+					<ol>
+					<li value="Part I" style="font-weight: 350;font-size:  100%;"><a href="PDF/AQFT/AlgebraicQT.pdf" style="font-weight: 300;"> Algebraic Quantum Theory<sup>*</sup></a></li>
+					<li value="Part II" style="font-weight: 350;font-size:  100%;"><a href="PDF/AQFT/Vacuum.pdf" style="font-weight: 300;"> Locality & the Spectrum Condition<sup>**</sup></a></li>
+					<li value="Part III" style="font-weight: 350;font-size:  100%;"><a href="PDF/AQFT/Modular.pdf" style="font-weight: 300;"> Modular Theory & Applications<sup>*</sup></a></li>
+					</ol>
+				</div>
+				<input type="checkbox" id="item3" name="accordion1"/>
+				<label for="item3" style="font-weight: 400; font-size:100%;">Sheaf Theory</label>
+				<div class="content">
+					Sheaf theory provides an efficient mathematical model for objects with 'locality' property. Sheaf theory brings out the main ideas by hiding the boring details.<br><br>
+					<li label="Part I" style="font-weight: 350;font-size:  100%;"><a href="PDF/Sheaf/Diffgeom.pdf" style="font-weight: 300;"> Differential Geometry via Sheaves</a></li>
+					<li label="Part II" style="font-weight: 350;font-size:  100%;"><a href="PDF/Sheaf/.pdf" style="font-weight: 300;"> Categorical Approach to the Six Functors<sup>**</sup></a></li>
+				</div>
+			</div>
+			<br><br><br><br>
 			<hr class="new1">
-			<section class="accordion">
-				<input type="checkbox" name="collapse" id="Publications" checked="checked">
-				<p class="handle"><label for="Publications">
-					<l style="font-weight: 400;font-size:  105%;color: ; float: center"><a style="color: Black">Publications & Preprints</a></l></label>
-					<p class="content">
-					<br>
-					<span style="font-weight: 350;font-size:  100%;">1. Emergence of Time in a Participatory Universe</l><a href="PDF/Research/Time.pdf" target="_blank"><span style="font-size: 65%;"> [PDF]</span></a><br>Preprint<br>
-					<span style="font-weight: 350;font-size:  100%;">2. Structure of Physical Theories</l><a href="PDF/Research/Structure.pdf" target="_blank"><span style="font-size: 65%;"> [PDF]</span></a><br>Presentation<br>
-				</p>
-				</section>
-				<hr class="new1">
-			<!--	<section class="accordion">
-				<input type="checkbox" name="collapse" id="Notes">
-					<p class="handle"><label for="Notes">
-						<l style="font-weight: 400;font-size:  110%;color: ; float: center"><a style="color: Black">Research Notes</a></l></label>
-						<p class="content">
-						<br>
-						These are notes on subjects that interest me academically. I have prioritised motivation and heuristics over details.
-					</p>
-
-				</section>
-				<hr class="new1">-->
+			<ol style="font-size: 70%">
+			<li style="margin-bottom: -2.5px;">My research so far in a single <a style="font-size:" href="images/honest.jpeg"><u>image.</u></a></li>
+			<li>The number of <sup>*</sup>s inversely related to readability.</li>
+			</ol>
 		</div>
 	</div>
 </body>
