@@ -72,60 +72,6 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
 }
-.accordion > input[name="collapse"] {
-  display: none;
-  /*position: absolute;
-  left: -100vw;*/
-}
-.accordion-handle a:hover{
-  color: black;
-}
-.accordion label,
-.accordion .content{
-}
-.accordion .content {
-  overflow: hidden;
-  height: 0;
-  transition: .20s;
-}
-.accordion > input[name="collapse"]:checked ~ .content {
-  height: 380px;
-  transition: height .25s;
-}
-.accordion label {
-}
-/* For Desktop */
-.accordion > input[name="collapse"]:checked ~ .content {
-  height: auto;
-}
-.accordion a:hover {
-  color: black;
-}
-.accordion > input[name="collapse"]:checked ~ .content {
-  border-top: auto;
-  transition: .35s;
-}
-.accordion .handle {
-  margin: auto;
-  font-size: auto;
-}
-.accordion label {
-  cursor: pointer;
-  font-weight: normal;
-  user-select: none;
-}
-.accordion label:hover,
-.accordion label:focus {
-}
-.accordion .handle label:before {
-  font-size: ;
-  line-height: 1.556em;
-  vertical-align: middle;
-  transition: .4s;
-}
-.accordion > input[name="collapse"]:checked ~ .handle label:before {
-    transition: 1.4s;
-}
 .logo a:hover, a:active, a:focus {
   color: black;
   outline: none;
@@ -137,7 +83,6 @@ h1, h2, h3, h4, h5, h6 {
 .twitter:hover {
   color: #00acee
 }
-
 .instagram {
   color: #9E8FCB;
 }
@@ -156,12 +101,40 @@ h1, h2, h3, h4, h5, h6 {
 .mail:hover {
   color: #d64945;
 }
-
 hr.new1 {
   border-top: .25px solid #BEC0C2;
 }
-
+input[type="checkbox"] {
+  display: none;
+}
+label {
+  display: block;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #F6F6F6;
+  border-radius: 4px;
+  margin-bottom: -1px;
+  transition: 0.2s ease-in;
+}
+label:hover {
+  background-color: #EFEFEF;
+}
+.content {
+	background-color: #F9F9F9;
+  max-height: 0;
+  overflow: hidden;
+	margin-bottom: 5px;
+  transition: 0.075s;
+}
+input[type="checkbox"]:checked + label {
+  background-color: #EFEFEF;
+}
+input[type="checkbox"]:checked + label + .content {
+  max-height: 500px; /* Adjust the value to fit your content */
+  padding: 10px;
+  background-color: #F9F9F9;
+  border-radius: 4px;
+}
 
 @media screen and (max-width: 991px){
-
 }
