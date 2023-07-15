@@ -95,6 +95,12 @@ h1, h2, h3, h4, h5, h6 {
 .substack:hover {
   color: #ff781f
 }
+.github {
+  color: #909090;
+}
+.github:hover {
+  color: #800080;
+}
 .mail {
   color: #d18a88;
 }
