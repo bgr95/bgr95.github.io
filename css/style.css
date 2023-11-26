@@ -121,6 +121,10 @@ hr.lightline {
   border-top: 1px solid #AFB0B0;
 /*  border-top: .5px solid #BEC0C2;*/
 }
+hr.lighterline {
+  border-top: 1px solid #cdd1d1;
+/*  border-top: .5px solid #BEC0C2;*/
+}
 input[type="checkbox"] {
   display: none;
 }
