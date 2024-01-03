@@ -163,4 +163,5 @@ input[type="checkbox"]:checked + label + .content {
   .backgroundtransparentimg {
 	display: 	none;
 	}
+  font-size: 20px;
 }
