@@ -165,3 +165,21 @@ input[type="checkbox"]:checked + label + .content {
 	}
   font-size: 20px;
 }
+
+.blog-post {
+    /* Style for individual posts */
+}
+
+.post-date {
+    /* Style for the post date */
+}
+
+.sidebar {
+    /* Style for the sidebar */
+}
+
+.recent-posts ul {
+    /* Style for the recent posts list */
+}
+
+/* Continue with more styling as needed */
