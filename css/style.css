@@ -62,11 +62,11 @@ ol {
 }
 ::-webkit-selection {
   color: black;
-  background: RGB(183,201,226);
+  background: #B8CADF;
 }
 ::-moz-selection {
   color: black;
-  background: RGB(183,201,226);
+  background: #B8CADF;
 }
 ::selection {
   color: black;
@@ -138,7 +138,7 @@ label {
   transition: 0.2s ease-in;
 }
 label:hover {
-  background-color: #EFEFEF;
+  background-color: #d6d6d6;
 }
 .content {
 	background-color: #F9F9F9;
