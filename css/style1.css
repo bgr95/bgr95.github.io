@@ -132,13 +132,13 @@ label {
   display: block;
   cursor: pointer;
   padding: 10px;
-  background-color: #F6F6F6;
+  background-color: #e2e2e2;
   border-radius: 4px;
   margin-bottom: -1px;
   transition: 0.2s ease-in;
 }
 label:hover {
-  background-color: #EFEFEF;
+  background-color: #e2e2e2;
 }
 .content {
 	background-color: #F9F9F9;
