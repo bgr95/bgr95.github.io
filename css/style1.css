@@ -132,13 +132,13 @@ label {
   display: block;
   cursor: pointer;
   padding: 10px;
-  background-color: #F6F6F6;
+  background-color: #ececec;
   border-radius: 4px;
   margin-bottom: -1px;
   transition: 0.2s ease-in;
 }
 label:hover {
-	background-color: #F6F6F6;
+	background-color: #e2e2e2;
 }
 .content {
 	background-color: #F6F6F6;
@@ -148,7 +148,7 @@ label:hover {
 	transition: 0.075s;
 }
 input[type="checkbox"]:checked + label {
-  background-color: #F6F6F6;
+  background-color: #e2e2e2;
 }
 input[type="checkbox"]:checked + label + .content {
   max-height: 500px; /* Adjust the value to fit your content */
