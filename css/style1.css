@@ -138,17 +138,17 @@ label {
   transition: 0.2s ease-in;
 }
 label:hover {
-	background-color: #E2E2E2;
+	background-color: #F6F6F6;
 }
 .content {
-	background-color: #ececec;
+	background-color: #F6F6F6;
   	max-height: 0;
   	overflow: hidden;
 	margin-bottom: 5px;
 	transition: 0.075s;
 }
 input[type="checkbox"]:checked + label {
-  background-color: #EFEFEF;
+  background-color: #F6F6F6;
 }
 input[type="checkbox"]:checked + label + .content {
   max-height: 500px; /* Adjust the value to fit your content */
