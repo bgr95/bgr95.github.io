@@ -132,7 +132,7 @@ label {
   display: block;
   cursor: pointer;
   padding: 10px;
-  background-color: #ececec;
+  background-color: #F6F6F6;
   border-radius: 4px;
   margin-bottom: -1px;
   transition: 0.2s ease-in;
@@ -153,7 +153,7 @@ input[type="checkbox"]:checked + label {
 input[type="checkbox"]:checked + label + .content {
   max-height: 500px; /* Adjust the value to fit your content */
   padding: 10px;
-  background-color: #F6F6F6;
+  background-color: #e2e2e2;
   border-radius: 4px;
 }
 
