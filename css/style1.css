@@ -132,20 +132,20 @@ label {
   display: block;
   cursor: pointer;
   padding: 10px;
-  background-color: #e2e2e2;
+  background-color: #ececec;
   border-radius: 4px;
   margin-bottom: -1px;
   transition: 0.2s ease-in;
 }
 label:hover {
-  background-color: #e2e2e2;
+	background-color: #e2e2e2;
 }
 .content {
-	background-color: #F9F9F9;
-  max-height: 0;
-  overflow: hidden;
+	background-color: #ececec;
+  	max-height: 0;
+  	overflow: hidden;
 	margin-bottom: 5px;
-  transition: 0.075s;
+	transition: 0.075s;
 }
 input[type="checkbox"]:checked + label {
   background-color: #EFEFEF;
@@ -153,7 +153,7 @@ input[type="checkbox"]:checked + label {
 input[type="checkbox"]:checked + label + .content {
   max-height: 500px; /* Adjust the value to fit your content */
   padding: 10px;
-  background-color: #F9F9F9;
+  background-color: #ececec;
   border-radius: 4px;
 }
 
