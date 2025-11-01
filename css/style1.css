@@ -62,11 +62,11 @@ ol {
 }
 ::-webkit-selection {
   color: black;
-  background: RGB(183,201,226);
+  background: #C4C4C4;
 }
 ::-moz-selection {
   color: black;
-  background: RGB(183,201,226);
+  background: #C4C4C4;
 }
 ::selection {
   color: black;
