@@ -153,7 +153,7 @@ input[type="checkbox"]:checked + label {
 input[type="checkbox"]:checked + label + .content {
   max-height: 500px; /* Adjust the value to fit your content */
   padding: 10px;
-  background-color: #EFEFEF;
+  background-color: #F6F6F6;
   border-radius: 4px;
 }
 
