@@ -1,0 +1,185 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* =======================================================
+*
+* 	Template Style
+*	Edit this section
+*
+* ======================================================= */
+body {
+  min-height: 100vh;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #000;
+  background: #fff;
+  height: 100%;
+  position: relative;
+}
+.showcase {
+      background-image: url("background.jpg");
+      background-size:100% auto;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      opacity: 0.6;
+    }
+.ron-content {
+  display: block;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  color: #68696b;
+  -webkit-transition: 0.000s;
+  -o-transition: 0.000s;
+  transition: 0.000s;
+}
+a:hover, a:active, a:focus {
+  color: black;
+  outline: none;
+  text-decoration: none;
+}
+p {
+  margin-bottom: 1.5em;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-weight: 300;
+  margin: 0 0 30px 0;
+}
+ol {
+  padding-left: 11.5px;
+  margin-left: 11.5px;
+}
+::-webkit-selection {
+  color: black;
+  background: RGB(183,201,226);
+}
+::-moz-selection {
+  color: black;
+  background: RGB(183,201,226);
+}
+::selection {
+  color: black;
+  background: #C4C4C4;
+}
+.ron-section {
+  justify-content: center;
+  align-items: center;
+  padding: 4% 0;
+}
+.ron-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo a:hover, a:active, a:focus {
+  color: black;
+  outline: none;
+  text-decoration: none;
+}
+.twitter {
+  color: #86bacf;
+}
+.twitter:hover {
+  color: #00acee
+}
+.instagram {
+  color: #9E8FCB;
+}
+.instagram:hover {
+  color: #800080;
+}
+.substack {
+  color: #ffaf7a;
+}
+.substack:hover {
+  color: #ff781f
+}
+.github {
+  color: #909090;
+}
+.github:hover {
+  color: black;
+}
+.mail {
+  color: #d18a88;
+}
+.mail:hover {
+  color: #d64945;
+}
+hr.lightline {
+  border-top: 1px solid #AFB0B0;
+/*  border-top: .5px solid #BEC0C2;*/
+}
+hr.lighterline {
+  border-top: 1px solid #dee3e3;
+/*  border-top: .5px solid #BEC0C2;*/
+}
+input[type="checkbox"] {
+  display: none;
+}
+label {
+  display: block;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #F6F6F6;
+  border-radius: 4px;
+  margin-bottom: -1px;
+  transition: 0.2s ease-in;
+}
+label:hover {
+  background-color: #EFEFEF;
+}
+.content {
+	background-color: #F9F9F9;
+  max-height: 0;
+  overflow: hidden;
+	margin-bottom: 5px;
+  transition: 0.075s;
+}
+input[type="checkbox"]:checked + label {
+  background-color: #EFEFEF;
+}
+input[type="checkbox"]:checked + label + .content {
+  max-height: 500px; /* Adjust the value to fit your content */
+  padding: 10px;
+  background-color: #F9F9F9;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 991px){
+}
+@media screen and (max-width: 768px) {
+  .backgroundtransparentimg {
+	display: 	none;
+	}
+  font-size: 20px;
+}
+
+.blog-post {
+    /* Style for individual posts */
+}
+
+.post-date {
+    /* Style for the post date */
+}
+
+.sidebar {
+    /* Style for the sidebar */
+}
+
+.recent-posts ul {
+    /* Style for the recent posts list */
+}
+
+/* Continue with more styling as needed */
