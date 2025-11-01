@@ -62,15 +62,15 @@ ol {
 }
 ::-webkit-selection {
   color: black;
-  background: #B8CADF;
+  background: #eaeaea;
 }
 ::-moz-selection {
   color: black;
-  background: #B8CADF;
+  background: #eaeaea;
 }
 ::selection {
   color: black;
-  background: #C4C4C4;
+  background: #eaeaea;
 }
 .ron-section {
   justify-content: center;
@@ -138,7 +138,7 @@ label {
   transition: 0.2s ease-in;
 }
 label:hover {
-  background-color: #d6d6d6;
+  background-color: #c9c9c9;
 }
 .content {
 	background-color: #F9F9F9;
@@ -148,12 +148,12 @@ label:hover {
   transition: 0.075s;
 }
 input[type="checkbox"]:checked + label {
-  background-color: #EFEFEF;
+  background-color: #e2e2e2;
 }
 input[type="checkbox"]:checked + label + .content {
   max-height: 500px; /* Adjust the value to fit your content */
   padding: 10px;
-  background-color: #F9F9F9;
+  background-color: #ececec;
   border-radius: 4px;
 }
 
